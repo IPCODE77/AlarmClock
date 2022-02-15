@@ -1,0 +1,44 @@
+#input{
+    padding: 3%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    
+    padding-left: 15%;
+}
+#no1,#no2,#no3{
+    margin-right: 10px;
+}
+
+body{
+    background-color: black;
+}
+#time{
+    color: cyan;
+}
+
+#clock{
+    height: 245px;
+    margin-top: 5%;
+    flex-direction:column;
+}
+
+
+#btn{
+    display: flex;
+    justify-content: center;
+}
+
+#day{
+    text-align: center;
+    color: cyan;
+
+}
+svg{
+    color: aqua;
+}
+
+#alert1{
+    color: #040404;
+    background-color: #d5f194;
+}
